@@ -72,8 +72,8 @@ def llm(prompt):
 
 
 def rag(query):
-    search_results = elastic_search(query)
-    prompt = build_prompt(query, search_results)
+    #search_results = elastic_search(query)
+    prompt = build_prompt(query, '')#search_results)
     answer = llm(prompt)
     return answer
 
