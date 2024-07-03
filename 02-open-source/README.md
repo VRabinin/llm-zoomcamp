@@ -166,7 +166,11 @@ docker run -it \
 Pulling the model
 
 ```bash
+<<<<<<< HEAD
 docker exec -it bash
+=======
+docker exec -it ollama bash
+>>>>>>> a0648eaa8f44ea8a7a75783b26e4e57dd32b8f56
 ollama pull phi3
 ```
 
@@ -187,6 +191,20 @@ ollama pull phi3
   <img src="https://markdown-videos-api.jorgenkh.no/youtube/R6L8PZ-7bGo">
 </a>
 
+<<<<<<< HEAD
 
 * Putting it in Streamlit
 * [Code](qa_faq.py)
+=======
+* Putting it in Streamlit
+* [Code](qa_faq.py)
+
+If you want to learn more about streamlit, you can
+use [this material](https://github.com/DataTalksClub/project-of-the-week/blob/main/2022-08-14-frontend.md)
+from [our repository with projects of the week](https://github.com/DataTalksClub/project-of-the-week/tree/main).
+
+# Notes
+
+* [Workaround by Pham Nguyen Hung to use ElasticSearch container with Saturn Cloud & Google Colab instead of minsearch](https://hung.bearblog.dev/llm-zoomcamp-zrok/)
+* Did you take notes? Add them above this line (Send a PR with *links* to your notes)
+>>>>>>> a0648eaa8f44ea8a7a75783b26e4e57dd32b8f56
